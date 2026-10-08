@@ -1,0 +1,289 @@
+{
+    "personal": {
+        "name": "Sahhar Dhia Eddine",
+        "title": "Lead / Senior Fullstack Developer",
+        "greeting": "Hello, I am",
+        "email": "dhiakizaro@gmail.com",
+        "location": "Algiers, Algeria",
+        "socialLinks": {
+            "github": "https://github.com/dhia13",
+            "linkedin": "https://www.linkedin.com/in/sahhar-dhia-eddine-b9a45824b"
+        },
+        "cv": {
+            "pdf": "/Sahhar_Dhia_Eddine_CV.pdf",
+            "docx": "/Sahhar_Dhia_Eddine_CV.docx"
+        }
+    },
+    "about": {
+        "summary": "Lead Fullstack Developer with 1.5+ years of experience building production-ready applications. Specialized in MERN stack, Next.js, React, real-time systems, and role-based platforms.",
+        "professionalExperience": [
+            {
+                "company": "Care-Me",
+                "role": "Lead Fullstack Developer",
+                "duration": "1.5+ years",
+                "status": "Pre-launch",
+                "description": "Built healthcare & beauty reservation platform from scratch with multi-role access (Admin, Owner, Manager, Collaborator, Client), real-time notifications, admin dashboards, Flutter mobile app, and production deployment. Designed full system architecture including databases, APIs, and authentication logic."
+            },
+            {
+                "company": "BistroDZ",
+                "role": "Fullstack Developer",
+                "duration": "Recently launched",
+                "status": "Live",
+                "description": "Developed restaurant POS and management system with role-based access (Owner, Manager, Waiter), multi-space support, real-time table ordering, stock management, receipt printing, and analytics. Currently serving 10 active client restaurants."
+            }
+        ],
+        "languages": [
+            {
+                "name": "Arabic",
+                "level": "Native"
+            },
+            {
+                "name": "French",
+                "level": "Fluent"
+            },
+            {
+                "name": "English",
+                "level": "Professional"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "id": "careme",
+            "name": "Care-Me Platform",
+            "description": "A comprehensive multi-platform healthcare and beauty reservation system built from scratch. Features multi-role access for Admin, Owner, Manager, Collaborator, and Client roles with real-time notifications, admin dashboards, and a Flutter mobile app.",
+            "tags": [
+                {
+                    "name": "react",
+                    "color": "blue-text-gradient"
+                },
+                {
+                    "name": "nextjs",
+                    "color": "green-text-gradient"
+                },
+                {
+                    "name": "mongodb",
+                    "color": "pink-text-gradient"
+                },
+                {
+                    "name": "flutter",
+                    "color": "blue-text-gradient"
+                }
+            ],
+            "image": "carrent",
+            "source_code_link": "https://github.com/dhia13"
+        },
+        {
+            "id": "bistrodz",
+            "name": "BistroDZ",
+            "description": "A complete restaurant POS and management system with role-based access. Features multi-space support, real-time table ordering, stock management, receipt printing, and comprehensive analytics. Currently serving 10+ active restaurants.",
+            "tags": [
+                {
+                    "name": "nextjs",
+                    "color": "blue-text-gradient"
+                },
+                {
+                    "name": "react",
+                    "color": "green-text-gradient"
+                },
+                {
+                    "name": "typescript",
+                    "color": "pink-text-gradient"
+                },
+                {
+                    "name": "mongodb",
+                    "color": "blue-text-gradient"
+                }
+            ],
+            "image": "jobit",
+            "source_code_link": "https://github.com/dhia13"
+        },
+        {
+            "id": "dopm",
+            "name": "DOPM",
+            "description": "A comprehensive frontend delivery tracking application built for a French client. Features real-time GPS tracking, interactive maps, order status updates, and delivery notifications.",
+            "tags": [
+                {
+                    "name": "react",
+                    "color": "blue-text-gradient"
+                },
+                {
+                    "name": "typescript",
+                    "color": "green-text-gradient"
+                },
+                {
+                    "name": "restapi",
+                    "color": "pink-text-gradient"
+                }
+            ],
+            "image": "tripguide",
+            "source_code_link": "https://github.com/dhia13"
+        },
+        {
+            "id": "construction",
+            "name": "Construction Management",
+            "description": "A comprehensive construction management system featuring advanced dashboard analytics, workflow automation, project tracking, resource management, and team collaboration tools.",
+            "tags": [
+                {
+                    "name": "react",
+                    "color": "blue-text-gradient"
+                },
+                {
+                    "name": "nextjs",
+                    "color": "green-text-gradient"
+                },
+                {
+                    "name": "mongodb",
+                    "color": "pink-text-gradient"
+                }
+            ],
+            "image": "carrent",
+            "source_code_link": "https://github.com/dhia13"
+        },
+        {
+            "id": "pdfextractor",
+            "name": "Pdf-Extractor",
+            "description": "An open-source Node.js tool for PDF processing. Available on GitHub for the developer community.",
+            "tags": [
+                {
+                    "name": "nodejs",
+                    "color": "blue-text-gradient"
+                },
+                {
+                    "name": "javascript",
+                    "color": "green-text-gradient"
+                }
+            ],
+            "image": "jobit",
+            "source_code_link": "https://github.com/dhia13/Pdf-Extractor"
+        },
+        {
+            "id": "hermeslib",
+            "name": "HermesLib",
+            "description": "An open-source JavaScript utility library providing helpful functions for developers. Available on GitHub.",
+            "tags": [
+                {
+                    "name": "javascript",
+                    "color": "blue-text-gradient"
+                },
+                {
+                    "name": "npm",
+                    "color": "green-text-gradient"
+                }
+            ],
+            "image": "tripguide",
+            "source_code_link": "https://github.com/dhia13/HermesLib"
+        },
+        {
+            "id": "geodetection",
+            "name": "Geo-Detection",
+            "description": "A Node.js-based IP geolocation detection service using MaxMind GeoIP2 database. Provides accurate geographic location detection based on IP addresses.",
+            "tags": [
+                {
+                    "name": "nodejs",
+                    "color": "blue-text-gradient"
+                },
+                {
+                    "name": "express",
+                    "color": "green-text-gradient"
+                },
+                {
+                    "name": "typescript",
+                    "color": "pink-text-gradient"
+                }
+            ],
+            "image": "carrent",
+            "source_code_link": "https://github.com/dhia13/Geo-Detection"
+        },
+        {
+            "id": "portfolios",
+            "name": "Portfolio Collection",
+            "description": "A collection of 5 different portfolio website implementations showcasing various technologies and design approaches. Includes HTML/CSS/JS, Next.js 14, Next.js 13 with Three.js, Creative Next.js, and React 3D portfolios. All portfolios share centralized profile data and are fully responsive with modern UI/UX.",
+            "tags": [
+                {
+                    "name": "nextjs",
+                    "color": "blue-text-gradient"
+                },
+                {
+                    "name": "react",
+                    "color": "green-text-gradient"
+                },
+                {
+                    "name": "threejs",
+                    "color": "pink-text-gradient"
+                },
+                {
+                    "name": "typescript",
+                    "color": "blue-text-gradient"
+                }
+            ],
+            "image": "carrent",
+            "source_code_link": "https://github.com/dhia13/portfolios"
+        }
+    ],
+    "experienceTimeline": [
+        {
+            "date": "2024 - Present",
+            "role": "Lead Fullstack Developer",
+            "company": "Care-Me Platform",
+            "description": "Building healthcare & beauty reservation platform with multi-role access, real-time features, and Flutter mobile app.",
+            "points": [
+                "Built healthcare & beauty reservation platform from scratch with multi-role access",
+                "Implemented real-time notifications and admin dashboards",
+                "Developed Flutter mobile application for iOS & Android",
+                "Designed full system architecture including databases, APIs, and authentication logic"
+            ]
+        },
+        {
+            "date": "2024",
+            "role": "Fullstack Developer",
+            "company": "BistroDZ",
+            "description": "Developed restaurant POS system serving 10+ active restaurants with real-time ordering and analytics.",
+            "points": [
+                "Developed restaurant POS and management system with role-based access",
+                "Implemented multi-space support and real-time table ordering",
+                "Built advanced stock management system and receipt printing",
+                "Created comprehensive analytics dashboard for sales reports"
+            ]
+        },
+        {
+            "date": "2021 - Present",
+            "role": "Freelance Developer",
+            "company": "Various Clients",
+            "description": "Working on diverse projects including DOPM, delivery tracking app, construction management system, and more.",
+            "points": [
+                "Working on diverse projects including DOPM, delivery tracking app",
+                "Developed construction management system with workflow automation",
+                "Built frontend applications for various clients",
+                "Collaborated with teams to deliver high-quality solutions"
+            ]
+        }
+    ],
+    "testimonials": [
+        {
+            "testimonial": "Sahhar delivered exceptional work on our restaurant management system. His expertise in real-time systems and attention to detail made BistroDZ a success.",
+            "name": "BistroDZ Client",
+            "designation": "Restaurant Owner",
+            "company": "BistroDZ"
+        },
+        {
+            "testimonial": "Working with Sahhar on the Care-Me platform has been outstanding. His fullstack capabilities and system architecture skills are impressive.",
+            "name": "Care-Me Team",
+            "designation": "Healthcare Platform",
+            "company": "Care-Me"
+        },
+        {
+            "testimonial": "Professional, reliable, and technically excellent. Sahhar's ability to understand requirements and deliver quality solutions is remarkable.",
+            "name": "Freelance Client",
+            "designation": "Project Manager",
+            "company": "DOPM Project"
+        }
+    ],
+    "contact": {
+        "email": "dhiakizaro@gmail.com",
+        "location": "Algiers, Algeria",
+        "github": "https://github.com/dhia13",
+        "linkedin": "https://www.linkedin.com/in/sahhar-dhia-eddine"
+    }
+}
+

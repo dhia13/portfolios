@@ -1,0 +1,29 @@
+{
+  "name": "Sahhar Dhia Eddine - Portfolio",
+  "short_name": "Dhia Portfolio",
+  "description": "Lead / Senior Fullstack Developer Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7fbfd",
+  "theme_color": "#0c1618",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "img/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/MainLogo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "developer", "web"],
+  "lang": "en",
+  "dir": "ltr"
+}
+
+

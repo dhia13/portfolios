@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahhar Dhia Eddine - Lead Fullstack Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            padding: 20px;
+        }
+        
+        .cv-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+        
+        .header h2 {
+            font-size: 20px;
+            color: #64748b;
+            font-weight: normal;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        
+        .contact-info a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 22px;
+            color: #1e40af;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        
+        .summary {
+            text-align: justify;
+            font-size: 15px;
+            line-height: 1.8;
+            color: #475569;
+        }
+        
+        .experience-item, .project-item {
+            margin-bottom: 25px;
+            padding-left: 15px;
+            border-left: 3px solid #e2e8f0;
+        }
+        
+        .experience-header, .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        
+        .job-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #1e293b;
+        }
+        
+        .company-name {
+            font-size: 16px;
+            color: #2563eb;
+            font-weight: 600;
+        }
+        
+        .duration {
+            font-size: 14px;
+            color: #64748b;
+            font-style: italic;
+        }
+        
+        .description {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 1.7;
+            color: #475569;
+        }
+        
+        .description ul {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+        
+        .description li {
+            margin-bottom: 5px;
+        }
+        
+        .technologies {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .tech-tag {
+            background: #e0e7ff;
+            color: #3730a3;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .skill-category {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2563eb;
+        }
+        
+        .skill-category h3 {
+            font-size: 16px;
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+        
+        .skill-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        
+        .skill-name {
+            color: #334155;
+        }
+        
+        .skill-percentage {
+            color: #64748b;
+            font-weight: 600;
+        }
+        
+        .education {
+            font-size: 15px;
+            color: #475569;
+        }
+        
+        .achievements {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .achievements li {
+            padding-left: 20px;
+            position: relative;
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #475569;
+        }
+        
+        .achievements li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #2563eb;
+            font-weight: bold;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+            }
+            
+            .cv-container {
+                box-shadow: none;
+                padding: 20px;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Sahhar Dhia Eddine</h1>
+            <h2>Lead / Senior Fullstack Developer</h2>
+            <div class="contact-info">
+                <span>📧 <a href="mailto:dhiakizaro@gmail.com">dhiakizaro@gmail.com</a></span>
+                <span>📍 Algiers, Algeria</span>
+                <span>🔗 <a href="https://github.com/dhia13" target="_blank">github.com/dhia13</a></span>
+                <span>💼 <a href="https://www.linkedin.com/in/sahhar-dhia-eddine-b9a45824b" target="_blank">LinkedIn</a></span>
+            </div>
+        </div>
+
+        <!-- Professional Summary -->
+        <div class="section">
+            <div class="section-title">Professional Summary</div>
+            <div class="summary">
+                Lead Fullstack Developer with 1.5+ years of experience building production-ready applications. Specialized in MERN stack, Next.js, React, real-time systems, and role-based platforms. Proven track record of designing and implementing scalable full-stack solutions from architecture to deployment, including mobile applications, web platforms, and backend services.
+            </div>
+        </div>
+
+        <!-- Professional Experience -->
+        <div class="section">
+            <div class="section-title">Professional Experience</div>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="job-title">Lead Fullstack Developer & Partner</div>
+                        <div class="company-name">BistroDZ</div>
+                    </div>
+                    <div class="duration">Recently Launched (6 Months) | Live - 10+ Active Restaurants</div>
+                </div>
+                <div class="description">
+                    <ul>
+                        <li>Developed complete restaurant POS and management system with role-based access (Owner, Manager, Waiter)</li>
+                        <li>Implemented multi-space restaurant support with real-time table ordering and synchronization</li>
+                        <li>Built advanced stock management system with receipt printing and POS integration</li>
+                        <li>Created comprehensive analytics dashboard with sales reports and insights</li>
+                        <li>Designed menu management and customer management systems</li>
+                        <li>Deployed production system on AWS serving 10+ active client restaurants</li>
+                        <li>Implemented multi-language support (English, French, Arabic) with RTL layout</li>
+                        <li>Integrated smart printing with kitchen display system</li>
+                        <li>Built mobile-responsive design with offline mode support</li>
+                    </ul>
+                    <div class="technologies">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Socket.IO</span>
+                        <span class="tech-tag">AWS S3</span>
+                        <span class="tech-tag">Printer API</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="job-title">Lead Fullstack Developer</div>
+                        <div class="company-name">Care-Me Platform</div>
+                    </div>
+                    <div class="duration">1.5+ Years | Pre-launch</div>
+                </div>
+                <div class="description">
+                    <ul>
+                        <li>Built comprehensive healthcare & beauty reservation platform from scratch</li>
+                        <li>Designed and implemented multi-role access control system (Admin, Owner, Manager, Collaborator, Client)</li>
+                        <li>Developed real-time notifications and updates using Socket.IO</li>
+                        <li>Created comprehensive admin dashboards with analytics</li>
+                        <li>Built Flutter mobile application for iOS & Android (available on Play Store & App Store)</li>
+                        <li>Integrated payment processing with Stripe</li>
+                        <li>Implemented calendar and appointment management system</li>
+                        <li>Developed review and rating system with email and SMS notifications</li>
+                        <li>Designed full system architecture including databases, APIs, and authentication logic</li>
+                        <li>Deployed production system on AWS with Redis caching</li>
+                        <li>Implemented advanced search and filtering capabilities</li>
+                        <li>Created client booking interface and store management for owners</li>
+                    </ul>
+                    <div class="technologies">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Socket.IO</span>
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Stripe</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">Redis</span>
+                        <span class="tech-tag">JWT</span>
+                    </div>
+                    <div style="margin-top: 10px; font-size: 13px; color: #64748b;">
+                        <strong>Links:</strong> care-me.pro | care-me.app | Play Store | App Store
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="job-title">Freelance Developer</div>
+                        <div class="company-name">Various Clients</div>
+                    </div>
+                    <div class="duration">2021 - Present</div>
+                </div>
+                <div class="description">
+                    Worked on diverse projects including delivery tracking apps, construction management systems, and more. Delivered full-stack solutions for multiple clients across different industries.
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Projects -->
+        <div class="section">
+            <div class="section-title">Key Projects</div>
+            
+            <div class="project-item">
+                <div class="project-header">
+                    <div>
+                        <div class="job-title">PDF Editor & Extractor</div>
+                        <div class="company-name">Open Source Project | Live</div>
+                    </div>
+                </div>
+                <div class="description">
+                    Powerful Next.js-based PDF editor with page extraction, drawing tools, shape management, and dark mode support.
+                    <div class="technologies" style="margin-top: 8px;">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">PDF-lib</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Canvas API</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <div>
+                        <div class="job-title">Quiz Application</div>
+                        <div class="company-name">Open Source Project | Active</div>
+                    </div>
+                </div>
+                <div class="description">
+                    Full-stack medical quiz application with React Native mobile app, Express.js backend, and React admin panel.
+                    <div class="technologies" style="margin-top: 8px;">
+                        <span class="tech-tag">React Native</span>
+                        <span class="tech-tag">Expo</span>
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">JWT</span>
+                        <span class="tech-tag">Redux</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <div>
+                        <div class="job-title">Geo-Detection</div>
+                        <div class="company-name">Open Source Project | Active</div>
+                    </div>
+                </div>
+                <div class="description">
+                    Node.js-based IP geolocation detection service using MaxMind GeoIP2 database.
+                    <div class="technologies" style="margin-top: 8px;">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">MaxMind GeoIP2</span>
+                        <span class="tech-tag">TypeScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <div>
+                        <div class="job-title">Portfolio Collection</div>
+                        <div class="company-name">Open Source Project | Active</div>
+                    </div>
+                </div>
+                <div class="description">
+                    Collection of 5 different portfolio implementations showcasing various technologies and design approaches.
+                    <div class="technologies" style="margin-top: 8px;">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Three.js</span>
+                        <span class="tech-tag">TypeScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item"><span class="skill-name">React</span><span class="skill-percentage">95%</span></div>
+                    <div class="skill-item"><span class="skill-name">Next.js</span><span class="skill-percentage">95%</span></div>
+                    <div class="skill-item"><span class="skill-name">Tailwind CSS</span><span class="skill-percentage">90%</span></div>
+                    <div class="skill-item"><span class="skill-name">Ant Design</span><span class="skill-percentage">88%</span></div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-item"><span class="skill-name">Node.js</span><span class="skill-percentage">90%</span></div>
+                    <div class="skill-item"><span class="skill-name">Express.js</span><span class="skill-percentage">90%</span></div>
+                    <div class="skill-item"><span class="skill-name">Socket.IO</span><span class="skill-percentage">90%</span></div>
+                    <div class="skill-item"><span class="skill-name">REST API</span><span class="skill-percentage">88%</span></div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skill-item"><span class="skill-name">MongoDB</span><span class="skill-percentage">88%</span></div>
+                    <div class="skill-item"><span class="skill-name">MySQL</span><span class="skill-percentage">85%</span></div>
+                    <div class="skill-item"><span class="skill-name">Database Design</span><span class="skill-percentage">87%</span></div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Mobile & Desktop</h3>
+                    <div class="skill-item"><span class="skill-name">Flutter</span><span class="skill-percentage">80%</span></div>
+                    <div class="skill-item"><span class="skill-name">React Native</span><span class="skill-percentage">80%</span></div>
+                    <div class="skill-item"><span class="skill-name">Capacitor</span><span class="skill-percentage">78%</span></div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-item"><span class="skill-name">JavaScript</span><span class="skill-percentage">95%</span></div>
+                    <div class="skill-item"><span class="skill-name">TypeScript</span><span class="skill-percentage">85%</span></div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>DevOps & Tools</h3>
+                    <div class="skill-item"><span class="skill-name">GitHub Actions</span><span class="skill-percentage">85%</span></div>
+                    <div class="skill-item"><span class="skill-name">PM2</span><span class="skill-percentage">88%</span></div>
+                    <div class="skill-item"><span class="skill-name">Nginx</span><span class="skill-percentage">85%</span></div>
+                    <div class="skill-item"><span class="skill-name">AWS</span><span class="skill-percentage">Production</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="education">Licence Degree in Commerce</div>
+        </div>
+
+        <!-- Languages -->
+        <div class="section">
+            <div class="section-title">Languages</div>
+            <div style="display: flex; gap: 30px; font-size: 14px; color: #475569;">
+                <div><strong>Arabic:</strong> Native</div>
+                <div><strong>French:</strong> Fluent</div>
+                <div><strong>English:</strong> Professional</div>
+            </div>
+        </div>
+
+        <!-- Key Achievements -->
+        <div class="section">
+            <div class="section-title">Key Achievements</div>
+            <ul class="achievements">
+                <li>Successfully launched BistroDZ serving 10+ active restaurants</li>
+                <li>Built Care-Me platform from scratch with Flutter mobile app available on both Play Store and App Store</li>
+                <li>Created multiple open-source projects with active GitHub repositories</li>
+                <li>Designed and implemented complex role-based access control systems</li>
+                <li>Deployed production applications on AWS with high availability</li>
+                <li>Built real-time systems using Socket.IO for multiple projects</li>
+                <li>Created comprehensive admin dashboards and analytics systems</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+
+

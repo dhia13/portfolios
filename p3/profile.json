@@ -1,0 +1,131 @@
+{
+    "personal": {
+        "name": "Sahhar Dhia Eddine",
+        "title": "Lead / Senior Fullstack Developer",
+        "greeting": "Hello, I am",
+        "email": "dhiakizaro@gmail.com",
+        "location": "Algiers, Algeria",
+        "socialLinks": {
+            "github": "https://github.com/dhia13",
+            "linkedin": "https://www.linkedin.com/in/sahhar-dhia-eddine-b9a45824b"
+        },
+        "cv": {
+            "pdf": "/Sahhar_Dhia_Eddine_CV.pdf",
+            "docx": "/Sahhar_Dhia_Eddine_CV.docx"
+        }
+    },
+    "about": {
+        "summary": "Lead Fullstack Developer with 1.5+ years of experience building production-ready applications. Specialized in MERN stack, Next.js, React, real-time systems, and role-based platforms.",
+        "professionalExperience": [
+            {
+                "company": "Care-Me",
+                "role": "Lead Fullstack Developer",
+                "duration": "1.5+ years",
+                "status": "Pre-launch",
+                "description": "Built healthcare & beauty reservation platform from scratch with multi-role access (Admin, Owner, Manager, Collaborator, Client), real-time notifications, admin dashboards, Flutter mobile app, and production deployment. Designed full system architecture including databases, APIs, and authentication logic."
+            },
+            {
+                "company": "BistroDZ",
+                "role": "Fullstack Developer",
+                "duration": "Recently launched",
+                "status": "Live",
+                "description": "Developed restaurant POS and management system with role-based access (Owner, Manager, Waiter), multi-space support, real-time table ordering, stock management, receipt printing, and analytics. Currently serving 10 active client restaurants."
+            }
+        ],
+        "languages": [
+            {
+                "name": "Arabic",
+                "level": "Native"
+            },
+            {
+                "name": "French",
+                "level": "Fluent"
+            },
+            {
+                "name": "English",
+                "level": "Professional"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "id": "careme",
+            "title": "Care-Me Platform",
+            "subtitle": "Healthcare & Beauty Reservation Platform",
+            "category": "fullstack",
+            "description": "A comprehensive multi-platform healthcare and beauty reservation system built from scratch. Features multi-role access for Admin, Owner, Manager, Collaborator, and Client roles with real-time notifications, admin dashboards, and a Flutter mobile app.",
+            "technologies": ["React", "Next.js", "Node.js", "Express", "MongoDB", "Socket.IO", "Flutter", "Stripe", "AWS"],
+            "link": "https://github.com/dhia13"
+        },
+        {
+            "id": "bistrodz",
+            "title": "BistroDZ",
+            "subtitle": "Restaurant POS & Management System",
+            "category": "fullstack",
+            "description": "A complete restaurant POS and management system with role-based access. Features multi-space support, real-time table ordering, stock management, receipt printing, and comprehensive analytics. Currently serving 10+ active restaurants.",
+            "technologies": ["Next.js", "React", "TypeScript", "Node.js", "Express", "MongoDB", "Socket.IO"],
+            "link": "https://github.com/dhia13"
+        },
+        {
+            "id": "dopm",
+            "title": "DOPM",
+            "subtitle": "Frontend Delivery Tracking App",
+            "category": "frontend",
+            "description": "A comprehensive frontend delivery tracking application built for a French client. Features real-time GPS tracking, interactive maps, order status updates, and delivery notifications.",
+            "technologies": ["React", "TypeScript", "Real-time Tracking", "Map Integration"],
+            "link": "https://github.com/dhia13"
+        },
+        {
+            "id": "construction",
+            "title": "Construction Management",
+            "subtitle": "Dashboard & Workflow Development",
+            "category": "fullstack",
+            "description": "A comprehensive construction management system featuring advanced dashboard analytics, workflow automation, project tracking, resource management, and team collaboration tools.",
+            "technologies": ["React", "Next.js", "Node.js", "Express", "MongoDB"],
+            "link": "https://github.com/dhia13"
+        },
+        {
+            "id": "pdfextractor",
+            "title": "Pdf-Extractor",
+            "subtitle": "Open Source PDF Processing Tool",
+            "category": "open-source",
+            "description": "An open-source Node.js tool for PDF processing. Available on GitHub for the developer community.",
+            "technologies": ["Node.js", "PDF Processing"],
+            "link": "https://github.com/dhia13/Pdf-Extractor"
+        },
+        {
+            "id": "hermeslib",
+            "title": "HermesLib",
+            "subtitle": "Open Source JavaScript Library",
+            "category": "open-source",
+            "description": "An open-source JavaScript utility library providing helpful functions for developers. Available on GitHub.",
+            "technologies": ["JavaScript", "Utility Functions"],
+            "link": "https://github.com/dhia13/HermesLib"
+        },
+        {
+            "id": "geodetection",
+            "title": "Geo-Detection",
+            "subtitle": "IP Geolocation Detection Service",
+            "category": "backend",
+            "description": "A Node.js-based IP geolocation detection service using MaxMind GeoIP2 database. Provides accurate geographic location detection based on IP addresses.",
+            "technologies": ["Node.js", "Express", "MaxMind GeoIP2", "REST API", "TypeScript"],
+            "link": "https://github.com/dhia13/Geo-Detection"
+        },
+        {
+            "id": "portfolios",
+            "title": "Portfolio Collection",
+            "subtitle": "Multiple Portfolio Implementations",
+            "category": "fullstack",
+            "description": "A collection of 5 different portfolio website implementations showcasing various technologies and design approaches. Includes HTML/CSS/JS, Next.js 14, Next.js 13 with Three.js, Creative Next.js, and React 3D portfolios. All portfolios share centralized profile data and are fully responsive with modern UI/UX.",
+            "technologies": ["Next.js", "React", "TypeScript", "Three.js", "Tailwind CSS", "HTML/CSS/JS", "Vite"],
+            "link": "https://github.com/dhia13/portfolios"
+        }
+    ],
+    "contact": {
+        "email": "dhiakizaro@gmail.com",
+        "location": "Algiers, Algeria",
+        "github": "https://github.com/dhia13",
+        "linkedin": "https://www.linkedin.com/in/sahhar-dhia-eddine"
+    }
+}
+

@@ -1,0 +1,104 @@
+/* Print Stylesheet for Portfolio */
+@media print {
+  * {
+    background: white !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  /* Hide non-essential elements */
+  .header,
+  .nav,
+  .nav-btn,
+  .theme-toggle,
+  .goToTop,
+  .page-loader,
+  .scroll-progress,
+  .contactForm,
+  .footer,
+  .project-modal,
+  .btn,
+  .response {
+    display: none !important;
+  }
+
+  /* Page breaks */
+  section {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* Typography */
+  h1 {
+    font-size: 24pt;
+    margin-bottom: 10pt;
+  }
+
+  h2 {
+    font-size: 18pt;
+    margin-bottom: 8pt;
+  }
+
+  h3 {
+    font-size: 14pt;
+    margin-bottom: 6pt;
+  }
+
+  /* Links */
+  a {
+    color: black !important;
+    text-decoration: underline;
+  }
+
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 10pt;
+  }
+
+  /* Skills and projects */
+  .skill-bar__fill,
+  .skill-level-bar {
+    border: 1px solid black !important;
+  }
+
+  /* Remove animations */
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  /* Layout */
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .hero {
+    padding-top: 0;
+    page-break-after: always;
+  }
+
+  .about,
+  .skills,
+  .projects {
+    padding: 20pt 0;
+  }
+
+  /* Print URLs */
+  .footer-email a:after,
+  .contact-content a:after {
+    content: " (" attr(href) ")";
+  }
+}
+
+

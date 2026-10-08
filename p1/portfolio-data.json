@@ -1,0 +1,726 @@
+{
+  "personal": {
+    "name": "Sahhar Dhia Eddine",
+    "title": "Lead / Senior Fullstack Developer",
+    "greeting": "Hello, I am",
+    "email": "dhiakizaro@gmail.com",
+    "location": "Algiers, Algeria",
+    "portfolioUrl": "https://portfolio-dhia13.vercel.app/",
+    "socialLinks": {
+      "github": "https://github.com/dhia13",
+      "linkedin": "https://www.linkedin.com/in/sahhar-dhia-eddine-b9a45824b"
+    },
+    "cv": {
+      "pdf": "Sahhar_Dhia_Eddine_CV.pdf",
+      "docx": "Sahhar_Dhia_Eddine_CV.docx"
+    }
+  },
+  "about": {
+    "summary": "Lead Fullstack Developer with 1.5+ years of experience building production-ready applications. Specialized in MERN stack, Next.js, React, real-time systems, and role-based platforms.",
+    "professionalExperience": [
+      {
+        "company": "Care-Me",
+        "role": "Lead Fullstack Developer",
+        "duration": "1.5+ years",
+        "status": "Pre-launch",
+        "description": "Built healthcare & beauty reservation platform from scratch with multi-role access (Admin, Owner, Manager, Collaborator, Client), real-time notifications, admin dashboards, Flutter mobile app, and production deployment. Designed full system architecture including databases, APIs, and authentication logic."
+      },
+      {
+        "company": "BistroDZ",
+        "role": "Fullstack Developer",
+        "duration": "Recently launched",
+        "status": "Live",
+        "description": "Developed restaurant POS and management system with role-based access (Owner, Manager, Waiter), multi-space support, real-time table ordering, stock management, receipt printing, and analytics. Currently serving 10 active client restaurants."
+      }
+    ],
+    "technicalExpertise": {
+      "languages": [
+        {
+          "name": "JavaScript",
+          "tooltip": "Primary programming language"
+        },
+        {
+          "name": "TypeScript",
+          "tooltip": "Typed superset of JavaScript"
+        }
+      ],
+      "frontend": [
+        {
+          "name": "React",
+          "tooltip": "UI library"
+        },
+        {
+          "name": "Next.js",
+          "tooltip": "React framework"
+        },
+        {
+          "name": "Tailwind CSS",
+          "tooltip": "Utility-first CSS"
+        },
+        {
+          "name": "Ant Design",
+          "tooltip": "Component library"
+        },
+        {
+          "name": "shadcn/ui",
+          "tooltip": "UI components"
+        }
+      ],
+      "backend": [
+        {
+          "name": "Node.js",
+          "tooltip": "Runtime environment"
+        },
+        {
+          "name": "Express",
+          "tooltip": "Web framework"
+        },
+        {
+          "name": "REST API",
+          "tooltip": "API architecture"
+        },
+        {
+          "name": "Socket.IO",
+          "tooltip": "Real-time communication"
+        },
+        {
+          "name": "RBAC",
+          "tooltip": "Role-based access control"
+        }
+      ],
+      "mobileDesktop": [
+        {
+          "name": "Flutter",
+          "tooltip": "Cross-platform mobile"
+        },
+        {
+          "name": "React Native",
+          "tooltip": "Mobile framework"
+        },
+        {
+          "name": "Capacitor",
+          "tooltip": "Hybrid app framework"
+        },
+        {
+          "name": "Electron",
+          "tooltip": "Desktop apps"
+        }
+      ],
+      "databases": [
+        {
+          "name": "MongoDB",
+          "tooltip": "NoSQL database"
+        },
+        {
+          "name": "MySQL",
+          "tooltip": "Relational database"
+        }
+      ],
+      "devops": [
+        {
+          "name": "GitHub Actions",
+          "tooltip": "CI/CD automation"
+        },
+        {
+          "name": "PM2",
+          "tooltip": "Process manager"
+        },
+        {
+          "name": "Nginx",
+          "tooltip": "Web server"
+        },
+        {
+          "name": "Ubuntu",
+          "tooltip": "Linux distribution"
+        },
+        {
+          "name": "S3 Bucket MinIO",
+          "tooltip": "Object storage service"
+        },
+        {
+          "name": "Firebase",
+          "tooltip": "Backend-as-a-Service platform"
+        }
+      ]
+    },
+    "education": {
+      "degree": "Licence Degree in Commerce"
+    },
+    "languages": [
+      {
+        "name": "Arabic",
+        "level": "Native"
+      },
+      {
+        "name": "French",
+        "level": "Fluent"
+      },
+      {
+        "name": "English",
+        "level": "Professional"
+      }
+    ],
+    "topSkills": [
+      {
+        "name": "React / Next.js",
+        "percentage": 95
+      },
+      {
+        "name": "Node.js / Express",
+        "percentage": 90
+      },
+      {
+        "name": "TypeScript",
+        "percentage": 85
+      },
+      {
+        "name": "MongoDB / MySQL",
+        "percentage": 88
+      },
+      {
+        "name": "Flutter / React Native",
+        "percentage": 80
+      },
+      {
+        "name": "Socket.IO / Real-time",
+        "percentage": 90
+      }
+    ]
+  },
+  "skills": {
+    "frontend": [
+      {
+        "name": "React",
+        "percentage": 95
+      },
+      {
+        "name": "Next.js",
+        "percentage": 95
+      },
+      {
+        "name": "TypeScript",
+        "percentage": 85
+      },
+      {
+        "name": "Tailwind CSS",
+        "percentage": 90
+      },
+      {
+        "name": "Ant Design",
+        "percentage": 88
+      }
+    ],
+    "backend": [
+      {
+        "name": "Node.js",
+        "percentage": 90
+      },
+      {
+        "name": "Express.js",
+        "percentage": 90
+      },
+      {
+        "name": "REST API",
+        "percentage": 88
+      },
+      {
+        "name": "Socket.IO",
+        "percentage": 90
+      },
+      {
+        "name": "Authentication & RBAC",
+        "percentage": 88
+      },
+      {
+        "name": "MaxMind Geo Detection",
+        "percentage": 85
+      }
+    ],
+    "databases": [
+      {
+        "name": "MongoDB",
+        "percentage": 88
+      },
+      {
+        "name": "MySQL",
+        "percentage": 85
+      },
+      {
+        "name": "Database Design",
+        "percentage": 87
+      }
+    ],
+    "mobileDesktop": [
+      {
+        "name": "Flutter",
+        "percentage": 80
+      },
+      {
+        "name": "React Native",
+        "percentage": 80
+      },
+      {
+        "name": "Electron",
+        "percentage": 75
+      },
+      {
+        "name": "Capacitor",
+        "percentage": 78
+      }
+    ],
+    "devops": [
+      {
+        "name": "GitHub Actions",
+        "percentage": 85
+      },
+      {
+        "name": "Docker Containers",
+        "percentage": 70
+      },
+      {
+        "name": "PM2",
+        "percentage": 88
+      },
+      {
+        "name": "Nginx",
+        "percentage": 85
+      },
+      {
+        "name": "Ubuntu",
+        "percentage": 82
+      },
+      {
+        "name": "Firebase",
+        "percentage": 85
+      }
+    ]
+  },
+  "experienceTimeline": [
+    {
+      "date": "2024 - Present",
+      "role": "Lead Fullstack Developer",
+      "company": "Care-Me Platform",
+      "description": "Building healthcare & beauty reservation platform with multi-role access, real-time features, and Flutter mobile app."
+    },
+    {
+      "date": "2024",
+      "role": "Fullstack Developer",
+      "company": "BistroDZ",
+      "description": "Developed restaurant POS system serving 10+ active restaurants with real-time ordering and analytics."
+    },
+    {
+      "date": "2023 - Present",
+      "role": "Freelance Developer",
+      "company": "Various Clients",
+      "description": "Working on diverse projects including DOPM, delivery tracking app, construction management system, and more."
+    }
+  ],
+  "freelance": {
+    "title": "Freelance Developer",
+    "subtitle": "Various Clients",
+    "description": "Working on diverse projects including DOPM, Delivery tracking app, construction management system, and more."
+  },
+  "services": [
+    {
+      "title": "Frontend Development",
+      "icon": "img/services/01.svg",
+      "description": "Building responsive, accessible web applications using React, Next.js, TypeScript, Tailwind CSS, Ant Design, and shadcn/ui. Creating modern, user-centered interfaces with responsive design principles."
+    },
+    {
+      "title": "Backend Development",
+      "icon": "img/services/02.svg",
+      "description": "Developing scalable RESTful APIs using Node.js, Express.js, MongoDB, MySQL, with real-time features using Socket.IO. Implementing authentication, RBAC, and designing scalable system architectures."
+    },
+    {
+      "title": "Full-Stack Solutions",
+      "icon": "img/services/03.svg",
+      "description": "Creating end-to-end solutions including web apps, mobile apps (Flutter, React Native), and desktop applications (Electron, Capacitor) with modern architectures, CI/CD pipelines, and production deployment."
+    }
+  ],
+  "projects": [
+    {
+      "id": "careme",
+      "title": "Care-Me Platform",
+      "subtitle": "Healthcare & Beauty Reservation Platform",
+      "category": "fullstack",
+      "image": "img/works/01.jpg",
+      "description": "A comprehensive multi-platform healthcare and beauty reservation system built from scratch. Features multi-role access for Admin, Owner, Manager, Collaborator, and Client roles with real-time notifications, admin dashboards, and a Flutter mobile app. Includes advanced booking system, calendar management, payment processing, and analytics.",
+      "duration": "1.5+ Years",
+      "role": "Lead Fullstack Developer",
+      "status": "Pre-launch",
+      "technologies": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Socket.IO",
+        "Flutter",
+        "Stripe",
+        "AWS",
+        "Redis",
+        "JWT"
+      ],
+      "features": [
+        "Multi-role access control system (RBAC)",
+        "Real-time notifications and updates",
+        "Comprehensive admin dashboards",
+        "Flutter mobile application (iOS & Android)",
+        "Payment integration with Stripe",
+        "Calendar and appointment management",
+        "Review and rating system",
+        "Email and SMS notifications",
+        "Advanced search and filtering",
+        "Production deployment on AWS",
+        "Full system architecture design",
+        "API documentation and testing"
+      ],
+      "link": "https://github.com/dhia13",
+      "badges": [],
+      "shortDescription": "1.5+ Years • Lead Fullstack • Multi-role System • Flutter • Real-time • Production Ready"
+    },
+    {
+      "id": "bistrodz",
+      "title": "BistroDZ",
+      "subtitle": "Restaurant POS & Management System",
+      "category": "fullstack",
+      "image": "img/works/02.jpg",
+      "description": "A complete restaurant POS and management system with role-based access. Features multi-space support, real-time table ordering, stock management, receipt printing, and comprehensive analytics. Currently serving 10+ active restaurants with real-time synchronization across devices.",
+      "duration": "Recently Launched - 6 Months Development",
+      "role": "Fullstack Developer",
+      "status": "Live - 10+ Active Restaurants",
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Socket.IO",
+        "AWS S3",
+        "Printer API"
+      ],
+      "features": [
+        "Role-based access control (Owner, Manager, Waiter)",
+        "Multi-space restaurant support",
+        "Real-time table ordering and synchronization",
+        "Advanced stock management system",
+        "Receipt printing and POS integration",
+        "Comprehensive analytics dashboard",
+        "Sales reports and insights",
+        "Menu management system",
+        "Customer management",
+        "Production deployment on AWS",
+        "Mobile-responsive design",
+        "Offline mode support"
+      ],
+      "link": "https://github.com/dhia13",
+      "badges": [
+        {
+          "type": "success",
+          "text": "Live"
+        },
+        {
+          "type": "info",
+          "text": "10+ Clients"
+        }
+      ],
+      "shortDescription": "Recently Launched • 10 Active Restaurants • Real-time Ordering • Stock Management • Analytics"
+    },
+    {
+      "id": "dopm",
+      "title": "DOPM",
+      "subtitle": "Frontend Delivery Tracking App",
+      "category": "frontend",
+      "image": "img/works/03.jpg",
+      "description": "A comprehensive frontend delivery tracking application built for a French client. Features real-time GPS tracking, interactive maps, order status updates, delivery notifications, and an intuitive user dashboard with order history and live tracking capabilities.",
+      "duration": "Freelance Project - 3 Months",
+      "role": "Frontend Developer",
+      "status": "Completed & Deployed",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Real-time Tracking",
+        "Map Integration",
+        "User Dashboard",
+        "Responsive Design"
+      ],
+      "features": [
+        "Real-time GPS delivery tracking",
+        "Interactive map integration",
+        "Order status updates",
+        "Push notifications",
+        "User dashboard with order history",
+        "Responsive mobile-first design",
+        "Multi-language support (FR/EN)"
+      ],
+      "link": "https://github.com/dhia13",
+      "badges": [
+        {
+          "type": "warning",
+          "text": "Freelance"
+        }
+      ],
+      "shortDescription": "Freelance Project • France • React • Real-time Tracking • User Dashboard"
+    },
+    {
+      "id": "construction",
+      "title": "Construction Management",
+      "subtitle": "Dashboard & Workflow Development",
+      "category": "fullstack",
+      "image": "img/works/04.jpg",
+      "description": "A comprehensive construction management system featuring advanced dashboard analytics, workflow automation, project tracking, resource management, and team collaboration tools. Designed to streamline construction project management from planning to completion.",
+      "duration": "Freelance Project - 4 Months",
+      "role": "Fullstack Developer",
+      "status": "Completed & In Production",
+      "technologies": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Dashboard Analytics",
+        "Workflow Engine"
+      ],
+      "features": [
+        "Advanced dashboard with real-time analytics",
+        "Workflow automation engine",
+        "Project tracking and milestones",
+        "Resource management system",
+        "Team collaboration tools",
+        "Document management",
+        "Reporting and insights",
+        "Mobile-responsive interface"
+      ],
+      "link": "https://github.com/dhia13",
+      "badges": [
+        {
+          "type": "warning",
+          "text": "Freelance"
+        }
+      ],
+      "shortDescription": "Freelance Project • Dashboard • Workflow Management • React • Fullstack"
+    },
+    {
+      "id": "pdfextractor",
+      "title": "Pdf-Extractor",
+      "subtitle": "Open Source PDF Processing Tool",
+      "category": "open-source",
+      "image": "img/works/05.jpg",
+      "description": "An open-source Node.js tool for PDF processing. Available on GitHub for the developer community.",
+      "duration": "Open Source",
+      "role": "Creator",
+      "status": "Active",
+      "technologies": [
+        "Node.js",
+        "PDF Processing"
+      ],
+      "features": [
+        "PDF text extraction",
+        "PDF manipulation",
+        "Open source",
+        "Community contributions"
+      ],
+      "link": "https://github.com/dhia13/Pdf-Extractor",
+      "badges": [
+        {
+          "type": "info",
+          "text": "Open Source"
+        }
+      ],
+      "shortDescription": "Node.js • PDF Processing • Open Source • GitHub"
+    },
+    {
+      "id": "hermeslib",
+      "title": "HermesLib",
+      "subtitle": "Open Source JavaScript Library",
+      "category": "open-source",
+      "image": "img/works/06.jpg",
+      "description": "An open-source JavaScript utility library providing helpful functions for developers. Available on GitHub.",
+      "duration": "Open Source",
+      "role": "Creator",
+      "status": "Active",
+      "technologies": [
+        "JavaScript",
+        "Utility Functions"
+      ],
+      "features": [
+        "Utility functions",
+        "Helper methods",
+        "Open source",
+        "Community contributions"
+      ],
+      "link": "https://github.com/dhia13/HermesLib",
+      "badges": [
+        {
+          "type": "info",
+          "text": "Open Source"
+        }
+      ],
+      "shortDescription": "JavaScript Library • Open Source • Utility Functions • GitHub"
+    },
+    {
+      "id": "portfolios",
+      "title": "Portfolio Collection",
+      "subtitle": "Multiple Portfolio Implementations",
+      "category": "fullstack",
+      "image": "img/works/01.jpg",
+      "description": "A collection of 5 different portfolio website implementations showcasing various technologies and design approaches. Includes HTML/CSS/JS, Next.js 14, Next.js 13 with Three.js, Creative Next.js, and React 3D portfolios. All portfolios share centralized profile data and are fully responsive with modern UI/UX.",
+      "duration": "Open Source",
+      "role": "Creator",
+      "status": "Active",
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Three.js",
+        "Tailwind CSS",
+        "Framer Motion",
+        "HTML/CSS/JS",
+        "Vite"
+      ],
+      "features": [
+        "5 different portfolio implementations",
+        "Centralized profile data management",
+        "Modern UI/UX designs",
+        "3D graphics and animations",
+        "Dark/light theme support",
+        "Fully responsive designs",
+        "SEO optimized",
+        "Open source"
+      ],
+      "link": "https://github.com/dhia13/portfolios",
+      "badges": [
+        {
+          "type": "info",
+          "text": "Open Source"
+        }
+      ],
+      "shortDescription": "Portfolio Collection • 5 Implementations • Next.js • React • Three.js • Open Source"
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "Sahhar delivered exceptional work on our restaurant management system. His expertise in real-time systems and attention to detail made BistroDZ a success.",
+      "author": "BistroDZ Client",
+      "role": "Restaurant Owner"
+    },
+    {
+      "text": "Working with Sahhar on the Care-Me platform has been outstanding. His fullstack capabilities and system architecture skills are impressive.",
+      "author": "Care-Me Team",
+      "role": "Healthcare Platform"
+    },
+    {
+      "text": "Professional, reliable, and technically excellent. Sahhar's ability to understand requirements and deliver quality solutions is remarkable.",
+      "author": "Freelance Client",
+      "role": "DOPM Project"
+    }
+  ],
+  "contact": {
+    "title": "Contact",
+    "message": "Tell me about your project.\nLet's talk and work together!",
+    "location": "Algiers, Algeria",
+    "email": "dhiakizaro@gmail.com",
+    "portfolioUrl": "https://portfolio-dhia13.vercel.app/",
+    "github": "https://github.com/dhia13",
+    "linkedin": "https://www.linkedin.com/in/sahhar-dhia-eddine"
+  },
+  "seo": {
+    "title": "Sahhar Dhia Eddine - Lead / Senior Fullstack Developer",
+    "description": "Lead Fullstack Developer with 1.5+ years of experience building production-ready applications. Specialized in MERN stack, Next.js, React, real-time systems, and role-based platforms.",
+    "keywords": "Fullstack Developer, React, Next.js, Node.js, TypeScript, MongoDB, Socket.IO, Flutter, React Native, Web Developer, Software Engineer",
+    "author": "Sahhar Dhia Eddine",
+    "og": {
+      "type": "website",
+      "url": "https://portfolio-dhia13.vercel.app/",
+      "title": "Sahhar Dhia Eddine - Lead / Senior Fullstack Developer",
+      "description": "Lead Fullstack Developer with 1.5+ years of experience building production-ready applications. Specialized in MERN stack, Next.js, React, real-time systems.",
+      "image": "https://portfolio-dhia13.vercel.app/img/og-image.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 630,
+      "imageAlt": "Sahhar Dhia Eddine - Lead Fullstack Developer Portfolio"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "url": "https://portfolio-dhia13.vercel.app/",
+      "title": "Sahhar Dhia Eddine - Lead / Senior Fullstack Developer",
+      "description": "Lead Fullstack Developer with 1.5+ years of experience building production-ready applications.",
+      "image": "https://portfolio-dhia13.vercel.app/img/og-image.jpg"
+    },
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sahhar Dhia Eddine",
+      "jobTitle": "Lead / Senior Fullstack Developer",
+      "url": "https://portfolio-dhia13.vercel.app/",
+      "sameAs": [
+        "https://github.com/dhia13",
+        "https://www.linkedin.com/in/sahhar-dhia-eddine",
+        "https://portfolio-dhia13.vercel.app/"
+      ],
+      "email": "dhiakizaro@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DZ"
+      },
+      "knowsAbout": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "TypeScript",
+        "MongoDB",
+        "Socket.IO",
+        "Flutter",
+        "Fullstack Development"
+      ],
+      "description": "Lead Fullstack Developer with 1.5+ years of experience building production-ready applications. Specialized in MERN stack, Next.js, React, real-time systems, and role-based platforms."
+    }
+  },
+  "footer": {
+    "quickLinks": [
+      {
+        "text": "Home",
+        "href": "#home"
+      },
+      {
+        "text": "About",
+        "href": "#about"
+      },
+      {
+        "text": "Skills",
+        "href": "#skills"
+      },
+      {
+        "text": "Projects",
+        "href": "#projects"
+      },
+      {
+        "text": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "resources": [
+      {
+        "text": "Download CV",
+        "href": "Sahhar_Dhia_Eddine_CV.pdf",
+        "download": true
+      },
+      {
+        "text": "GitHub Profile",
+        "href": "https://github.com/dhia13",
+        "external": true
+      },
+      {
+        "text": "Portfolio",
+        "href": "https://portfolio-dhia13.vercel.app/",
+        "external": true
+      }
+    ],
+    "copyright": "Copyright Sahhar Dhia Eddine"
+  },
+  "metadata": {
+    "exportDate": "2024-12-19",
+    "version": "1.0.0",
+    "description": "Complete portfolio data export for Sahhar Dhia Eddine"
+  }
+}

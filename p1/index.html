@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Lead Fullstack Developer with 1.5+ years of experience building production-ready applications. Specialized in MERN stack, Next.js, React, real-time systems, and role-based platforms." />
+  <meta name="keywords"
+    content="Fullstack Developer, React, Next.js, Node.js, TypeScript, MongoDB, Socket.IO, Flutter, React Native, Web Developer, Software Engineer" />
+  <meta name="author" content="Sahhar Dhia Eddine" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://portfolio-dhia13.vercel.app/" />
+  <meta property="og:title" content="Sahhar Dhia Eddine - Lead / Senior Fullstack Developer" />
+  <meta property="og:description"
+    content="Lead Fullstack Developer with 1.5+ years of experience building production-ready applications. Specialized in MERN stack, Next.js, React, real-time systems." />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://portfolio-dhia13.vercel.app/" />
+  <meta property="twitter:title" content="Sahhar Dhia Eddine - Lead / Senior Fullstack Developer" />
+  <meta property="twitter:description"
+    content="Lead Fullstack Developer with 1.5+ years of experience building production-ready applications." />
+  <meta property="twitter:image" content="https://portfolio-dhia13.vercel.app/img/og-image.jpg" />
+
+  <!-- Open Graph Image -->
+  <meta property="og:image" content="https://portfolio-dhia13.vercel.app/img/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Sahhar Dhia Eddine - Lead Fullstack Developer Portfolio" />
+
+  <title>Sahhar Dhia Eddine - Lead / Senior Fullstack Developer</title>
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sahhar Dhia Eddine",
+    "jobTitle": "Lead / Senior Fullstack Developer",
+    "url": "https://portfolio-dhia13.vercel.app/",
+    "sameAs": [
+      "https://github.com/dhia13",
+      "https://www.linkedin.com/in/sahhar-dhia-eddine",
+      "https://portfolio-dhia13.vercel.app/"
+    ],
+    "email": "dhiakizaro@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "DZ"
+    },
+    "knowsAbout": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "TypeScript",
+      "MongoDB",
+      "Socket.IO",
+      "Flutter",
+      "Fullstack Development"
+    ],
+    "description": "Lead Fullstack Developer with 1.5+ years of experience building production-ready applications. Specialized in MERN stack, Next.js, React, real-time systems, and role-based platforms."
+  }
+  </script>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#0c1618" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Dhia Portfolio" />
+
+  <!-- Google Analytics (replace with your tracking ID) -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script> -->
+  <style>
+    /* Fallback styles in case CSS doesn't load */
+    body {
+      background-color: #f7fbfd;
+      color: #0c1618;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+  </style>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/media.css" />
+  <link rel="stylesheet" href="css/print.css" media="print" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Loading Animation -->
+  <div id="page-loader" class="page-loader">
+    <div class="loader-content">
+      <div class="loader-spinner"></div>
+      <p class="loader-text">Loading...</p>
+    </div>
+  </div>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <header id="header" class="header">
+    <div class="container container-lg">
+      <div class="header-nav">
+        <a href="#home" class="logo" data-aos="fade-down" data-aos-duration="1000">
+          <img src="img/MainLogo.png" alt="Sahhar Dhia Eddine Logo" class="logo-img" />
+          <span class="logo-text">D.Sahhar</span>
+        </a>
+        <nav id="nav" class="nav">
+          <ul class="nav-list" data-aos="fade-down" data-aos-duration="1000">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Works</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="nav-actions">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+              <span class="theme-icon">🌙</span>
+            </button>
+            <button id="nav-btn" class="nav-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+              <img id="nav-btn-img" src="img/icons/open.svg" alt="Navigation button" />
+            </button>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="hero">
+      <div class="container container-lg">
+        <div class="hero-row" data-aos="fade-zoom-in" data-aos-easing="ease-in-out" data-aos-delay="500"
+          data-aos-duration="1000">
+          <div class="hero-content">
+            <span class="hero-greeting"> Hello, I am</span>
+            <h1 class="hero-heading typing-animation">Sahhar Dhia Eddine</h1>
+            <span class="hero-heading-subtitle typing-subtitle">Lead / Senior Fullstack Developer</span>
+            <div class="about-social-list">
+              <div class="social-links-row">
+                <a href="https://github.com/dhia13" target="_blank" rel="noopener noreferrer">
+                  <img src="img/social_icons/github.svg" alt="Link to GitHub account" />
+                </a>
+
+                <a href="https://www.linkedin.com/in/sahhar-dhia-eddine" target="_blank" rel="noopener noreferrer">
+                  <img src="img/social_icons/linkedin.svg" alt="Link to linkedin profile" />
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <a href="#projects" class="btn">My Portfolio</a>
+              <a href="#contact" class="btn btn-white">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about" aria-label="About section">
+      <div class="container">
+        <div class="about-title">
+          <h2 class="title">About Me</h2>
+        </div>
+        <div class="about-row">
+          <div class="about-content" data-aos="fade-up" data-aos-duration="1000">
+            <div class="about-descr">
+              <p style="margin-bottom: 24px; font-size: clamp(1rem, 0.964rem + 0.18vw, 1.125rem); line-height: 1.8;">
+                Hi, I'm <strong>Sahhar Dhia Eddine</strong>, a Lead Fullstack Developer with 1.5+ years of experience
+                delivering production-ready applications from concept to deployment. I specialize in MERN stack,
+                Next.js,
+                React, real-time systems (Socket.IO), role-based platforms, and end-to-end product architecture.
+              </p>
+
+              <div style="margin-bottom: 32px;">
+                <h3 style="font-size: 20px; font-weight: 600; margin-bottom: 16px; color: var(--primary-accent);">
+                  Professional Experience</h3>
+                <div style="margin-bottom: 20px;">
+                  <strong style="color: var(--secondary-accent);">Care-Me</strong> - Lead Fullstack Developer (1.5+
+                  years,
+                  Pre-launch)<br />
+                  <span style="font-size: 15px; line-height: 1.7;">Built healthcare & beauty reservation platform from
+                    scratch with multi-role access (Admin, Owner, Manager, Collaborator, Client), real-time
+                    notifications,
+                    admin dashboards, Flutter mobile app, and production deployment. Designed full system architecture
+                    including databases, APIs, and authentication logic.</span>
+                </div>
+                <div>
+                  <strong style="color: var(--secondary-accent);">BistroDZ</strong> - Fullstack Developer (Recently
+                  launched)<br />
+                  <span style="font-size: 15px; line-height: 1.7;">Developed restaurant POS and management system with
+                    role-based access (Owner, Manager, Waiter), multi-space support, real-time table ordering, stock
+                    management, receipt printing, and analytics. Currently serving 10 active client restaurants.</span>
+                </div>
+              </div>
+
+              <div style="margin-bottom: 32px;">
+                <h3 style="font-size: 20px; font-weight: 600; margin-bottom: 16px; color: var(--primary-accent);">
+                  Technical Expertise</h3>
+                <div class="tech-stack-grid">
+                  <div class="tech-category">
+                    <strong>Languages:</strong>
+                    <div class="tech-tags">
+                      <span class="tech-tag" data-tooltip="Primary programming language">JavaScript</span>
+                      <span class="tech-tag" data-tooltip="Typed superset of JavaScript">TypeScript</span>
+                    </div>
+                  </div>
+                  <div class="tech-category">
+                    <strong>Frontend:</strong>
+                    <div class="tech-tags">
+                      <span class="tech-tag" data-tooltip="UI library">React</span>
+                      <span class="tech-tag" data-tooltip="React framework">Next.js</span>
+                      <span class="tech-tag" data-tooltip="Utility-first CSS">Tailwind CSS</span>
+                      <span class="tech-tag" data-tooltip="Component library">Ant Design</span>
+                      <span class="tech-tag" data-tooltip="UI components">shadcn/ui</span>
+                    </div>
+                  </div>
+                  <div class="tech-category">
+                    <strong>Backend:</strong>
+                    <div class="tech-tags">
+                      <span class="tech-tag" data-tooltip="Runtime environment">Node.js</span>
+                      <span class="tech-tag" data-tooltip="Web framework">Express</span>
+                      <span class="tech-tag" data-tooltip="API architecture">REST API</span>
+                      <span class="tech-tag" data-tooltip="Real-time communication">Socket.IO</span>
+                      <span class="tech-tag" data-tooltip="Role-based access control">RBAC</span>
+                    </div>
+                  </div>
+                  <div class="tech-category">
+                    <strong>Mobile & Desktop:</strong>
+                    <div class="tech-tags">
+                      <span class="tech-tag" data-tooltip="Cross-platform mobile">Flutter</span>
+                      <span class="tech-tag" data-tooltip="Mobile framework">React Native</span>
+                      <span class="tech-tag" data-tooltip="Hybrid app framework">Capacitor</span>
+                      <span class="tech-tag" data-tooltip="Desktop apps">Electron</span>
+                    </div>
+                  </div>
+                  <div class="tech-category">
+                    <strong>Databases:</strong>
+                    <div class="tech-tags">
+                      <span class="tech-tag" data-tooltip="NoSQL database">MongoDB</span>
+                      <span class="tech-tag" data-tooltip="Relational database">MySQL</span>
+                    </div>
+                  </div>
+                  <div class="tech-category">
+                    <strong>DevOps:</strong>
+                    <div class="tech-tags">
+                      <span class="tech-tag" data-tooltip="CI/CD automation">GitHub Actions</span>
+                      <span class="tech-tag" data-tooltip="Process manager">PM2</span>
+                      <span class="tech-tag" data-tooltip="Web server">Nginx</span>
+                      <span class="tech-tag" data-tooltip="Linux distribution">Ubuntu</span>
+                      <span class="tech-tag" data-tooltip="Object storage service">S3 Bucket MinIO</span>
+                      <span class="tech-tag" data-tooltip="Backend-as-a-Service platform">Firebase</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="margin-bottom: 32px;">
+                <h3 style="font-size: 20px; font-weight: 600; margin-bottom: 16px; color: var(--primary-accent);">
+                  Education & Languages</h3>
+                <p style="font-size: 15px; line-height: 1.7; margin-bottom: 12px;">
+                  <strong>Education:</strong> Licence Degree in Commerce
+                </p>
+                <p style="font-size: 15px; line-height: 1.7;">
+                  <strong>Languages:</strong> Arabic (Native), French (Fluent), English (Professional)
+                </p>
+              </div>
+            </div>
+            <div class="about-download-btn">
+              <a href="Sahhar_Dhia_Eddine_CV.pdf" class="btn btn-white" target="_blank" download>Download CV
+                (PDF)</a>
+            </div>
+          </div>
+          <div class="about-skills" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <div class="skill">
+              <div class="skill-title">React / Next.js</div>
+              <div class="skill-percent">95%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="95"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Node.js / Express</div>
+              <div class="skill-percent">90%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="90"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">TypeScript</div>
+              <div class="skill-percent">85%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="85"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">MongoDB / MySQL</div>
+              <div class="skill-percent">88%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="88"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Flutter / React Native</div>
+              <div class="skill-percent">80%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="80"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Socket.IO / Real-time</div>
+              <div class="skill-percent">90%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="90"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Experience Timeline -->
+        <div class="timeline-section" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+          <h3 class="timeline-title">Experience Timeline</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">2024 - Present</div>
+                <h4 class="timeline-role">Lead Fullstack Developer</h4>
+                <p class="timeline-company">Care-Me Platform</p>
+                <p class="timeline-description">Building healthcare & beauty reservation platform with multi-role
+                  access,
+                  real-time features, and Flutter mobile app.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">2024</div>
+                <h4 class="timeline-role">Fullstack Developer</h4>
+                <p class="timeline-company">BistroDZ</p>
+                <p class="timeline-description">Developed restaurant POS system serving 10+ active restaurants with
+                  real-time ordering and analytics.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">2023 - Present</div>
+                <h4 class="timeline-role">Freelance Developer</h4>
+                <p class="timeline-company">Various Clients</p>
+                <p class="timeline-description">Working on diverse projects including DOPM, delivery tracking app,
+                  construction management system, and more.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Freelance Section -->
+        <div class="freelance-section" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <div class="freelance-header">
+            <h3 class="freelance-title">Freelance Developer</h3>
+            <p class="freelance-subtitle">Various Clients</p>
+            <p class="freelance-description">Working on diverse projects including DOPM ,Delivery tracking app,
+              construction management system, and more.</p>
+          </div>
+        </div>
+
+        <div class="services-row">
+          <div class="service-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
+            <img class="service-card-img" src="img/services/01.svg" alt="Frontend Development Icon" />
+            <h3 class="service-card-title">Frontend Development</h3>
+            <p>
+              Building responsive, accessible web applications using React, Next.js, TypeScript, Tailwind CSS, Ant
+              Design,
+              and shadcn/ui. Creating modern, user-centered interfaces with responsive design principles.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <img class="service-card-img" src="img/services/02.svg" alt="Backend Development Icon" />
+            <h3 class="service-card-title">Backend Development</h3>
+            <p>
+              Developing scalable RESTful APIs using Node.js, Express.js, MongoDB, MySQL, with real-time features using
+              Socket.IO. Implementing authentication, RBAC, and designing scalable system architectures.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <img class="service-card-img" src="img/services/03.svg" alt="Full-Stack Solutions Icon" />
+            <h3 class="service-card-title">Full-Stack Solutions</h3>
+            <p>
+              Creating end-to-end solutions including web apps, mobile apps (Flutter, React Native), and desktop
+              applications (Electron, Capacitor) with modern architectures, CI/CD pipelines, and production deployment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills" aria-label="Skills section">
+      <div class="container">
+        <div class="skills-title">
+          <h2 class="title">Skills & Expertise</h2>
+          <p class="skills-subtitle">Technologies and tools I work with</p>
+        </div>
+
+        <div class="skills-grid" data-aos="fade-up" data-aos-duration="1000">
+          <div class="skills-category">
+            <h3 class="skills-category-title">Frontend</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <span class="skill-name">React</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Next.js</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">TypeScript</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Tailwind CSS</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Ant Design</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 88%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3 class="skills-category-title">Backend</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <span class="skill-name">Node.js</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Express.js</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">REST API</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 92%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Socket.IO</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Authentication & RBAC</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">MaxMind Geo Detection</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3 class="skills-category-title">Databases</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <span class="skill-name">MongoDB</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">MySQL</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Database Design</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 87%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3 class="skills-category-title">Mobile & Desktop</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <span class="skill-name">Flutter</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">React Native</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Electron</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Capacitor</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 78%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3 class="skills-category-title">DevOps & Tools</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <span class="skill-name">GitHub Actions</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Docker Containers</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">PM2</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Nginx</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Ubuntu</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 82%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Firebase</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects" aria-label="Projects section">
+      <div class="container container-lg">
+        <div class="projects-title">
+          <h2 class="title">Works</h2>
+        </div>
+
+        <!-- Project Filter -->
+        <div class="project-filters" data-aos="fade-up" data-aos-duration="800">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="fullstack">Fullstack</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+          <button class="filter-btn" data-filter="open-source">Open Source</button>
+        </div>
+
+        <div class="projects-row">
+          <div class="project-box" data-aos="fade-zoom-in" data-aos-easing="ease-in-out" data-aos-duration="1000"
+            data-project="careme">
+            <a href="#" class="project-link"
+              onclick="event.preventDefault(); openProjectModal('careme'); return false;">
+              <img class="project-img" src="img/works/01.jpg"
+                alt="Care-Me Platform - Healthcare & Beauty Reservation Platform" loading="lazy" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Care-Me Platform</h5>
+                  <p class="white">Healthcare & Beauty Reservation Platform</p>
+                  <p class="white" style="font-size: 12px; margin-top: 5px;">1.5+ Years • Lead Fullstack • Multi-role
+                    System • Flutter • Real-time • Production Ready</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-aos="fade-zoom-in" data-aos-easing="ease-in-out" data-aos-delay="300"
+            data-aos-duration="1000" data-project="bistrodz" data-category="fullstack">
+            <a href="#" class="project-link"
+              onclick="event.preventDefault(); openProjectModal('bistrodz'); return false;">
+              <div class="project-badges">
+                <span class="project-badge badge-success">Live</span>
+                <span class="project-badge badge-info">10+ Clients</span>
+              </div>
+              <img class="project-img" src="img/works/02.jpg" alt="BistroDZ - Restaurant POS & Management System"
+                loading="lazy" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">BistroDZ</h5>
+                  <p class="white">Restaurant POS & Management System</p>
+                  <p class="white" style="font-size: 12px; margin-top: 5px;">Recently Launched • 10 Active Restaurants •
+                    Real-time Ordering • Stock Management • Analytics</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-aos="fade-zoom-in" data-aos-easing="ease-in-out" data-aos-delay="600"
+            data-aos-duration="1000" data-project="dopm" data-category="frontend">
+            <a href="#" class="project-link" onclick="event.preventDefault(); openProjectModal('dopm'); return false;">
+              <div class="project-badges">
+                <span class="project-badge badge-warning">Freelance</span>
+              </div>
+              <img class="project-img" src="img/works/03.jpg" alt="DOPM - Frontend Delivery Tracking App"
+                loading="lazy" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">DOPM</h5>
+                  <p class="white">Frontend Delivery Tracking App</p>
+                  <p class="white" style="font-size: 12px; margin-top: 5px;">Freelance Project • France • React •
+                    Real-time Tracking • User Dashboard</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-aos="fade-zoom-in" data-aos-easing="ease-in-out" data-aos-delay="900"
+            data-aos-duration="1000" data-project="construction" data-category="fullstack">
+            <a href="#" class="project-link"
+              onclick="event.preventDefault(); openProjectModal('construction'); return false;">
+              <div class="project-badges">
+                <span class="project-badge badge-warning">Freelance</span>
+              </div>
+              <img class="project-img" src="img/works/04.jpg"
+                alt="Construction Management - Dashboard & Workflow Development" loading="lazy" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Construction Management</h5>
+                  <p class="white">Dashboard & Workflow Development</p>
+                  <p class="white" style="font-size: 12px; margin-top: 5px;">Freelance Project • Dashboard • Workflow
+                    Management • React • Fullstack</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-aos="fade-zoom-in" data-aos-easing="ease-in-out" data-aos-delay="1200"
+            data-aos-duration="1000" data-project="pdfextractor" data-category="open-source">
+            <a href="#" class="project-link"
+              onclick="event.preventDefault(); openProjectModal('pdfextractor'); return false;">
+              <div class="project-badges">
+                <span class="project-badge badge-info">Open Source</span>
+              </div>
+              <img class="project-img" src="img/works/05.jpg" alt="Pdf-Extractor - Open Source PDF Processing Tool"
+                loading="lazy" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Pdf-Extractor</h5>
+                  <p class="white">Open Source PDF Processing Tool</p>
+                  <p class="white" style="font-size: 12px; margin-top: 5px;">Node.js • PDF Processing • Open Source •
+                    GitHub</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-aos="fade-zoom-in" data-aos-easing="ease-in-out" data-aos-delay="1500"
+            data-aos-duration="1000" data-project="hermeslib" data-category="open-source">
+            <a href="#" class="project-link"
+              onclick="event.preventDefault(); openProjectModal('hermeslib'); return false;">
+              <div class="project-badges">
+                <span class="project-badge badge-info">Open Source</span>
+              </div>
+              <img class="project-img" src="img/works/06.jpg" alt="HermesLib - Open Source JavaScript Library"
+                loading="lazy" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">HermesLib</h5>
+                  <p class="white">Open Source JavaScript Library</p>
+                  <p class="white" style="font-size: 12px; margin-top: 5px;">JavaScript Library • Open Source • Utility
+                    Functions • GitHub</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials" aria-label="Testimonials section">
+      <div class="container">
+        <div class="testimonials-title">
+          <h2 class="title">What People Say</h2>
+        </div>
+        <div class="testimonials-grid" data-aos="fade-up" data-aos-duration="1000">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="testimonial-quote">"</div>
+              <p class="testimonial-text">Sahhar delivered exceptional work on our restaurant management system. His
+                expertise in real-time systems and attention to detail made BistroDZ a success.</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="testimonial-author-info">
+                <h4 class="testimonial-name">BistroDZ Client</h4>
+                <p class="testimonial-role">Restaurant Owner</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="testimonial-quote">"</div>
+              <p class="testimonial-text">Working with Sahhar on the Care-Me platform has been outstanding. His
+                fullstack
+                capabilities and system architecture skills are impressive.</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="testimonial-author-info">
+                <h4 class="testimonial-name">Care-Me Team</h4>
+                <p class="testimonial-role">Healthcare Platform</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="testimonial-quote">"</div>
+              <p class="testimonial-text">Professional, reliable, and technically excellent. Sahhar's ability to
+                understand requirements and deliver quality solutions is remarkable.</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="testimonial-author-info">
+                <h4 class="testimonial-name">Freelance Client</h4>
+                <p class="testimonial-role">DOPM Project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Divider -->
+    <div class="section-divider"></div>
+
+
+    <section id="contact" class="contact" aria-label="Contact section">
+      <div class="container">
+        <div class="contact-title">
+          <h2 class="title">Contact</h2>
+        </div>
+        <div class="contact-content">
+          <p>
+            Tell me about your project.
+            <br />
+            Let's talk and work together!
+            <br /><br />
+            <strong>Location:</strong> Algiers, Algeria<br />
+            <strong>Email:</strong> <a href="mailto:dhiakizaro@gmail.com"
+              style="color: inherit; text-decoration: underline;">dhiakizaro@gmail.com</a><br />
+            <strong>Portfolio:</strong> <a href="https://portfolio-dhia13.vercel.app/" target="_blank"
+              style="color: inherit; text-decoration: underline;">portfolio-dhia13.vercel.app</a><br />
+            <strong>GitHub:</strong> <a href="https://github.com/dhia13" target="_blank"
+              style="color: inherit; text-decoration: underline;">github.com/dhia13</a><br />
+            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sahhar-dhia-eddine" target="_blank"
+              style="color: inherit; text-decoration: underline;">linkedin.com/in/sahhar-dhia-eddine</a>
+          </p>
+        </div>
+
+        <form class="contactForm" data-aos="zoom-in" data-aos-duration="1000" aria-label="Contact form" novalidate>
+          <div class="input-box">
+            <div>
+              <input type="text" name="name" placeholder="Name" required aria-label="Your name" minlength="2" />
+            </div>
+            <div>
+              <input type="email" name="email" placeholder="Email Address" required aria-label="Your email address" />
+            </div>
+          </div>
+
+          <div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required
+              aria-label="Your message" minlength="10"></textarea>
+          </div>
+          <div class="contact-button" data-aos="fade-zoom-in" data-aos-easing="ease-in-out" data-aos-delay="500"
+            data-aos-duration="1000">
+            <button href="#!" class="btn btn-red" name="submit" type="submit">
+              Send Message
+            </button>
+          </div>
+        </form>
+        <div class="response"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4 class="footer-title">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4 class="footer-title">Connect</h4>
+            <div class="social-links-row footer-social">
+              <a href="https://github.com/dhia13" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                <img src="img/social_icons/github.svg" alt="Link to GitHub account" />
+              </a>
+
+              <a href="https://www.linkedin.com/in/sahhar-dhia-eddine-b9a45824b" target="_blank"
+                rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                <img src="img/social_icons/linkedin.svg" alt="Link to linkedin profile" />
+              </a>
+            </div>
+            <p class="footer-email">
+              <a href="mailto:dhiakizaro@gmail.com">dhiakizaro@gmail.com</a>
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <h4 class="footer-title">Resources</h4>
+            <ul class="footer-links">
+              <li><a href="Sahhar_Dhia_Eddine_CV.pdf" target="_blank" download>Download CV</a></li>
+              <li><a href="https://github.com/dhia13" target="_blank">GitHub Profile</a></li>
+              <li><a href="https://portfolio-dhia13.vercel.app/" target="_blank">Portfolio</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-row">
+          <div class="footer-copyright">
+            <p>&copy; Copyright Sahhar Dhia Eddine <span id="current-year">2024</span>. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <div id="goToTop" class="goToTop">
+    <a href="#home">
+      <img src="img/icons/arrow_up.svg" alt="Back to top" /></a>
+  </div>
+
+  <!-- Project Modal -->
+  <div id="project-modal" class="project-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+    <div class="modal-overlay" onclick="closeProjectModal()"></div>
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeProjectModal()" aria-label="Close modal">×</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/project-modal.js"></script>
+</body>
+
+</html>
